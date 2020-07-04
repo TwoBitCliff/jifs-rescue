@@ -1,46 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Lobster&family=Oswald:wght@200;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+    <title>Jif's Rescue</title>
+  </head>
 
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-		integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-	<link
-		href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Lobster&family=Oswald:wght@200;300;400;500;600;700&display=swap"
-		rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
-	<title>Jif's Rescue</title>
-</head>
+  <body>
+    <!--Navigation Menu-->
 
-<body>
+    <header>
+      <nav class="navbar navbarNav navbar-expand-lg">
+        <a class="navbar-brand" href="index.html"
+          ><img
+            src="/assets/images/jifsrescuelogo.jpg"
+            width="100%"
+            height="100%"
+            class="d-inline-block align-top"
+            alt="Jif's Rescue Logo"
+        /></a>
 
-	<header>
-		<div class="row">
-			<div class="col-xs-12 col-sm-6 col-md-4">
-				<a href="index.html"><img src="assets/images/jifsrescuelogo.jpg" alt="logo"></a>
-			</div>
-		</div>
-		<div class="row d-none d-md-block">
-			<div class="col">
-				<ul id="nav" class="list-inline menucontainer">
-					<li class="col-md-3 col-lg-1 list-inline-item menu-item-home"><a href="index.html"><span>Home</span></a></li>
-					<li class="col-md-3 col-lg-1 list-inline-item menu-item-about"><a href="index.html"><span>About</span></a></li>
-					<li class="col-md-3 col-lg-1 list-inline-item menu-item-animals"><a href="index.html"><span>Animals</span></a>
-					</li>
-					<li class="col-md-3 col-lg-1 list-inline-item menu-item-volunteer"><a
-							href="index.html"><span>Volunteer</span></a></li>
-					<li class="col-md-3 col-lg-1 list-inline-item menu-item-contact"><a href="index.html"><span>Contact</span></a>
-					</li>
-					<li class="col-md-3 col-lg-1 list-inline-item menu-item-find-us"><a href="index.html"><span>Find Us</span></a>
-					</li>
-				</ul>
-			</div>
-		</div>
-	</header>
+        <button        
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+          <span class="navbar-toggler-icon"></span>
+          <span class="navbar-toggler-icon"></span>
+          
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html"
+                >Home <span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Animals</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Volunteer</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
 
+    <!--Header Image-->
 
+    <div class="hero-image">
+      <div class="hero-text">
+        <h1>Mission Statement</h1>
+        <hr class="line-break" />
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat. Duis aute irure dolor in
+          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+          culpa qui officia deserunt mollit anim id est laborum.
+        </p>
+      </div>
+    </div>
 
-</body>
+    <footer></footer>
 
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
