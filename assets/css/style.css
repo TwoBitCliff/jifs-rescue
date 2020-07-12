@@ -28,13 +28,16 @@
   font-family: "Asap", sans-serif;
   color: #fff;
 }
-
+.section-heading {
+    font-family: "lobster", sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 10px;
+}
 .footer h6 {
   margin-top: 10px;
   text-align: center;
 }
-
-
 
 /* Footer */
 .footer {
@@ -72,7 +75,7 @@
   float: center;
 }
 
-/* ------------------- */
+/* --------Hero Image----------- */
 
 .hero-image {
   background-image: url(/assets/images/pigs.jpg);
@@ -97,3 +100,25 @@
   border: 1px solid #28a745;
   width: 50%;
 }
+/* Events */
+/* https://dev.to/peterc/how-to-create-joined-bulletpoint-lists-with-css-bbc-news-style-1eem */
+
+
+dl:before {
+  background-color:#28a745;
+  width: 2px;
+  content: "";
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 5px;
+}
+
+dl {
+  list-style-type: disc;
+  position: relative;
+  margin: 0;
+  padding-bottom: 1em;
+  padding-left: 20px;
+}
+
