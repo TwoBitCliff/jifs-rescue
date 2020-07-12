@@ -122,3 +122,17 @@ dl {
   padding-left: 20px;
 }
 
+
+
+.volunteer-image img{
+    max-height: 100%;
+    max-width: 100%;
+    
+}
+
+.volunteer-image {
+    height: 300px;
+    text-align: center;
+    display: block;
+    
+}
