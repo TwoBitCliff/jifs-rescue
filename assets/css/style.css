@@ -29,10 +29,10 @@
   color: #fff;
 }
 .section-heading {
-    font-family: "lobster", sans-serif;
-    text-transform: uppercase;
-    text-align: center;
-    margin-top: 10px;
+  font-family: "lobster", sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 10px;
 }
 .footer h6 {
   margin-top: 10px;
@@ -47,7 +47,7 @@
 .footer-list-contact {
   text-align: center;
   margin: 0;
-  padding: 0;  
+  padding: 0;
 }
 .footerlist-1 {
   text-align: left;
@@ -99,6 +99,7 @@
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
+  width: 80%
 }
 
 .line-break {
@@ -109,9 +110,8 @@
 /* Events */
 /* https://dev.to/peterc/how-to-create-joined-bulletpoint-lists-with-css-bbc-news-style-1eem */
 
-
 dl:before {
-  background-color:#28a745;
+  background-color: #28a745;
   width: 2px;
   content: "";
   position: absolute;
@@ -121,47 +121,41 @@ dl:before {
 }
 
 dl {
-  list-style-type: disc;
   position: relative;
   margin: 0;
   padding-bottom: 1em;
+  padding-top: 1em;
   padding-left: 20px;
 }
 
-
-
-.volunteer-image img{
-    max-height: 100%;
-    max-width: 100%;
-    
+.volunteer-image img {
+  max-height: 100%;
+  max-width: 100%;
 }
 
 .volunteer-image {
-    height: 300px;
-    text-align: center;
-    display: block;
-    
+  height: 300px;
+  text-align: center;
+  display: block;
 }
 
 .contact-form-card {
-    justify-content: center;
-    width: 100%;
-    margin-top: 15vh;
-    margin-bottom: 15vh;
-    
+  justify-content: center;
+  width: 100%;
+  margin-top: 15vh;
+  margin-bottom: 15vh;
 }
 
 /* https://mdbootstrap.com/docs/jquery/sections/contact/ */
 
 .contact-header {
-    background-color: #28a745;
-    color: #fff;
-    text-align: center;
+  background-color: #28a745;
+  color: #fff;
+  text-align: center;
 }
 
-
-.contact-form-btn  {
-  background-color: #28a745; 
+.contact-form-btn {
+  background-color: #28a745;
   border: none;
   color: white;
   text-align: center;
@@ -173,10 +167,32 @@ dl {
 /* about */
 
 .about-section {
-    justify-content: center;
-    text-align: center;
-    margin-top: 10vh;
-    margin-bottom: 15vh;
-    width: 80%
+  justify-content: center;
+  text-align: center;
+  margin-top: 10vh;
+  margin-bottom: 15vh;
+  width: 80%;
 }
 
+.carousel-inner .carousel-item {
+  max-height: 50vh;
+}
+
+.events-rescues {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.volunteer-item {
+    margin: 10px 5px 10px 5px;
+}
+.volunteer-item img {
+border-radius: 25%
+}
+
+.blockquote ol {
+    list-style: none;
+    justify-content: center;
+    text-align: center;
+    padding-top: 20px;
+}
