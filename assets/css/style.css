@@ -42,6 +42,12 @@
 /* Footer */
 .footer {
   background-color: #28a745;
+  padding-bottom: 20px;
+}
+.footer-list-contact {
+  text-align: center;
+  margin: 0;
+  padding: 0;  
 }
 .footerlist-1 {
   text-align: left;
@@ -162,5 +168,15 @@ dl {
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
+}
+
+/* about */
+
+.about-section {
+    justify-content: center;
+    text-align: center;
+    margin-top: 10vh;
+    margin-bottom: 15vh;
+    width: 80%
 }
 
