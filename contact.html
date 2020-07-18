@@ -62,8 +62,50 @@
 				</div>
 		</nav>
 	</header>
+	<!-- Contact Form -->
 
+	<section>
+		<div class="container-fluid contact-form-card">
+			<div class="card">
+				<div class="card-header form-header contact-header">
+					<h1 class="section-heading">Contact Us</h1>
+					<p>Want to know more? Or find out how to help out? Get in touch, and we promise to reply within 48
+						hours.</p>
+				</div>
+				<div class="card-body">
+					<form>
+						<div class="form-group">
+							<label for="nameInput"><i class="fas fa-user"></i> Full Name</label>
+							<input type="text" class="form-control" id="nameInput" aria-describedby="name" placeholder="Full Name" required>
 
+					</div>
+							<div class="form-group">
+								<label for="InputEmail"><i class="fas fa-envelope"></i> Email Address</label>
+								<input type="email" class="form-control" id="InputEmail" aria-describedby="emailHelp" placeholder="Enter email" required>
+								<small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+							</div>
+							<div class="contact-form-interest">
+								<input type="radio" id="Adoptions" name="type" value="Adoptions" disabled>
+								<label for="Adoptions">Adoptions</label><br>
+								<input type="radio" id="Donations" name="type" value="Donations">
+								<label for="Donations">Donations</label><br>
+								<input type="radio" id="Volunteer" name="type" value="Volunteer">
+								<label for="Volunteer">Volunteer</label>
+								<small class="form-text text-muted">Due to COVID-19 adoptions are temporarily suspended</small>
+							</div>
+							<div class="form-group">
+								<label for="form-text"><i class="fas fa-comment"></i> Send Message</label>
+								<textarea id="form-text" class="form-control md-textarea" rows="3"></textarea>
+							</div>
+
+							<button type="submit" class="btn contact-form-btn">Submit</button>
+					</form>
+
+				</div>
+
+			</div>
+		</div>
+	</section>
 
 	<!--Footer-->
 	<footer class="container-fluid footer">

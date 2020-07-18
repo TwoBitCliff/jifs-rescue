@@ -136,3 +136,31 @@ dl {
     display: block;
     
 }
+
+.contact-form-card {
+    justify-content: center;
+    width: 100%;
+    margin-top: 15vh;
+    margin-bottom: 15vh;
+    
+}
+
+/* https://mdbootstrap.com/docs/jquery/sections/contact/ */
+
+.contact-header {
+    background-color: #28a745;
+    color: #fff;
+    text-align: center;
+}
+
+
+.contact-form-btn  {
+  background-color: #28a745; 
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
