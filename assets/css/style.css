@@ -99,7 +99,7 @@
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
-  width: 80%
+  width: 80%;
 }
 
 .line-break {
@@ -184,15 +184,62 @@ dl {
 }
 
 .volunteer-item {
-    margin: 10px 5px 10px 5px;
+  margin: 10px 5px 10px 5px;
 }
 .volunteer-item img {
-border-radius: 25%
+  border-radius: 25%;
 }
 
-.blockquote ol {
-    list-style: none;
-    justify-content: center;
-    text-align: center;
-    padding-top: 20px;
+/* animals */
+
+ .animal-name {
+  text-align: center;
+  font-family: "Asap", sans-serif;
 }
+
+.animal-text {
+  text-align: center;
+  font-family: "Oswald", sans-serif;
+  padding-bottom: 10px;
+  margin-bottom: 40px;
+}
+
+.animal-card-body {
+  margin-bottom: 10px;
+  
+}
+
+.adoption-btn {
+  background-color: #28a745;
+  font-family: "Asap", sans-serif;
+  text-align: center;
+  color: #fff;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.animal-card {
+  margin: 20px auto 20px;
+  
+}
+
+ .animal-card {
+  position: relative;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+  margin: 20px auto 20px;
+} 
+
+ .card-img-top {
+  display: flex;
+  height: auto;
+  width: 100%;
+  position: relative;;
+} 
