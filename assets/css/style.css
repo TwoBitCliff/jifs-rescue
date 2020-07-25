@@ -192,7 +192,7 @@ dl {
 
 /* animals */
 
- .animal-name {
+.animal-name {
   text-align: center;
   font-family: "Asap", sans-serif;
 }
@@ -206,7 +206,6 @@ dl {
 
 .animal-card-body {
   margin-bottom: 10px;
-  
 }
 
 .adoption-btn {
@@ -224,22 +223,50 @@ dl {
 }
 
 .animal-card {
-  margin: 20px auto 20px;
-  
-}
-
- .animal-card {
   position: relative;
   display: flex;
-  -ms-flex-direction: column;
-  flex-direction: column;
   min-width: 0;
   margin: 20px auto 20px;
-} 
+}
 
- .card-img-top {
+.card-img-top {
   display: flex;
   height: auto;
   width: 100%;
-  position: relative;;
-} 
+  position: relative;
+}
+
+/* Volunteers */
+
+.card-img {  
+  object-fit: cover;  
+  position: relative;
+ height: 100%;
+ width: 100%;
+}
+
+.volunteer-card {
+  position: relative;
+  display: flex;
+  min-width: 0;
+  margin: 0px auto 0px;
+  text-align: center;
+  
+  
+}
+
+.volunteer-card li {
+    list-style-type: none;
+   justify-content: center;
+   text-align: left;
+   padding-left: 42px;
+   
+}
+
+.card {
+    border: solid #28a745 1px; 
+}
+
+body {
+    background-color: #f8f8ff
+}
