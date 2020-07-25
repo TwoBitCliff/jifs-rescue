@@ -86,6 +86,7 @@
 .hero-image {
   background-image: url(https://twobitcliff.github.io/jifsrescue/assets/images/pigs.jpg);
   height: 750px;
+ 
   background-position: center;
   position: relative;
   background-repeat: no-repeat;
@@ -186,9 +187,7 @@ dl {
 .volunteer-item {
   margin: 10px 5px 10px 5px;
 }
-.volunteer-item img {
-  border-radius: 25%;
-}
+
 
 /* animals */
 
@@ -227,11 +226,12 @@ dl {
   display: flex;
   min-width: 0;
   margin: 20px auto 20px;
+  
 }
 
 .card-img-top {
   display: flex;
-  height: auto;
+  height: 190px;
   width: 100%;
   position: relative;
 }
@@ -270,3 +270,20 @@ dl {
 body {
     background-color: #f8f8ff
 }
+/* transitions and animations */
+@media only screen 
+and (min-width : 1224px) {
+  
+.animal-card:hover, .volunteer-card:hover {
+  transform: scale(1.1);
+  transition-duration: .5s;
+  touch-action: none;  
+}
+}
+.volunteer-image { 
+    min-height: 100%;
+    margin-bottom: 3vh;
+    border-radius: 20%;
+       
+}
+
