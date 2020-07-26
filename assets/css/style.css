@@ -175,8 +175,8 @@ dl {
   width: 80%;
 }
 
-.carousel-inner .carousel-item {
-  max-height: 50vh;
+.carousel-inner, .carousel-item, .carousel-item-img {
+  max-height: 65vh;
 }
 
 .events-rescues {
