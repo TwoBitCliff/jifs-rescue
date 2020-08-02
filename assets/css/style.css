@@ -151,9 +151,9 @@ dl {
 
 .contact-form-card {
   justify-content: center;
-  width: 100%;
-  margin-top: 15vh;
-  margin-bottom: 15vh;
+  
+  margin-top: 10vh;
+  margin-bottom: 10vh;
 }
 
 /* https://mdbootstrap.com/docs/jquery/sections/contact/ */
@@ -297,6 +297,9 @@ and (min-width : 1224px) {
     padding-left: 15%;
     padding-right: 15%;
 
+}
+.contact-form-card {
+    width: 60%;
 }
 .useful-links {
     padding-left: 20%;
