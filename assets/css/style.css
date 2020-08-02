@@ -249,11 +249,14 @@ dl {
 .volunteer-card {
   position: relative;
   display: flex;
-  min-width: 0;
   margin: 0px auto 0px;
-  text-align: center;
-  
-  
+  text-align: center;  
+}
+.volunteer-container {
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 2%;
+    min-height: 75vh;
 }
 
 .volunteer-card li {
@@ -276,7 +279,7 @@ body {
 and (min-width : 1224px) {
   
 .animal-card:hover, .volunteer-card:hover {
-  transform: scale(1.1);
+  transform: scale(1.05);
   transition-duration: .5s;
   touch-action: none;  
 }
