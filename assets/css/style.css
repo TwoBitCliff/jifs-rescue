@@ -172,7 +172,7 @@ dl {
   text-align: center;
   margin-top: 10vh;
   margin-bottom: 15vh;
-  width: 80%;
+  width: 70%;
 }
 
 .carousel-inner, .carousel-item, .carousel-item-img {
@@ -203,6 +203,7 @@ dl {
   padding-bottom: 10px;
   margin-bottom: 40px;
 }
+
 
 .animal-card-body {
   margin-bottom: 10px;
@@ -282,6 +283,14 @@ and (min-width : 1224px) {
   transform: scale(1.05);
   transition-duration: .5s;
   touch-action: none;  
+}
+.animal-container {
+    padding-left: 15%;
+    padding-right: 15%;
+
+}
+.about-section {
+    width: 60%;
 }
 }
 .volunteer-image { 
