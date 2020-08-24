@@ -138,9 +138,7 @@ dl {
   padding-top: 1em;
   padding-left: 30px;
 }
-.events-list {
-    padding-left: 5%;
-}
+
 .volunteer-image img {
   max-height: 100%;
   max-width: 100%;
@@ -191,10 +189,7 @@ dl {
   max-height: 50vh;
   
 }
-.rescues-slide {
-    padding-left: 10%;
-  
-}
+
 
 
 .events-rescues {
@@ -202,9 +197,6 @@ dl {
   margin-bottom: 20px;
 }
 
-.events-list {
-    max-width: 80%;
-}
 
 .volunteer-item {
   margin: 10px 5px 10px 5px;
@@ -300,12 +292,21 @@ body {
 /* transitions and animations */
 @media only screen 
 and (min-width : 1224px) {
+  .events-list {
+    max-width: 80%;
+
+    padding-left: 5%;
+}
+.rescues-slide {
+    padding-left: 10%;
   
+}
 .animal-card:hover, .volunteer-card:hover {
   transform: scale(1.05);
   transition-duration: .5s;
   touch-action: none;  
 }
+
 .animal-container {
     padding-left: 15%;
     padding-right: 15%;
