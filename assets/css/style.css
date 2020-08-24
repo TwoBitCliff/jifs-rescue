@@ -152,6 +152,11 @@ dl {
   padding-left: 30px;
 }
 
+dt, dd {
+    padding-top: 10px;
+    
+}
+
 .volunteer-image img {
   max-height: 100%;
   max-width: 100%;
