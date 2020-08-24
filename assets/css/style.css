@@ -127,7 +127,8 @@ dl:before {
   position: absolute;
   top: 0px;
   bottom: 0px;
-  left: 5px;
+  left: 10px;
+  
 }
 
 dl {
@@ -135,9 +136,11 @@ dl {
   margin: 0;
   padding-bottom: 1em;
   padding-top: 1em;
-  padding-left: 20px;
+  padding-left: 30px;
 }
-
+.events-list {
+    padding-left: 5%;
+}
 .volunteer-image img {
   max-height: 100%;
   max-width: 100%;
@@ -184,13 +187,23 @@ dl {
   width: 70%;
 }
 
-.carousel-inner, .carousel-item, .carousel-item-img {
-  max-height: 65vh;
+.carousel-inner, .carousel-item, .carousel-item-img{
+  max-height: 50vh;
+  
 }
+.rescues-slide {
+    padding-left: 10%;
+  
+}
+
 
 .events-rescues {
   margin-top: 20px;
   margin-bottom: 20px;
+}
+
+.events-list {
+    max-width: 80%;
 }
 
 .volunteer-item {
@@ -309,6 +322,13 @@ and (min-width : 1224px) {
 
 .about-section {
     width: 60%;
+}
+
+#carouselRecentRescues{
+    max-width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    
 }
 }
 .volunteer-image { 
