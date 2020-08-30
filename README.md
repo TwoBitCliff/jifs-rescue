@@ -1,39 +1,204 @@
-<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
+# Jif's Rescue
 
-Welcome TwoBitCliff,
+---
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project.
+[View the live project here](https://twobitcliff.github.io/jifsrescue/)
 
-## Gitpod Reminders
+This is the main website for Jif’s Rescue, a fictional animal rescue sanctuary aimed at rehoming animals, fundraising and spreading awareness.
+This is the first milestone project for the Full Stack Developer course, encompassing all skills learnt so far, including HTML and CSS, as well as using bootstrap for a user-friendly, mobile first design.
+It is designed to be attention grabbing and encourage the user to return. To help achieve this, the website is responsive to different device sizes, altering the layout and functionality of the site depending on the device being used. To achieve this, bootstrap and media queries were used.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+![Image of Home Page](./assets/images/readme/homepage.PNG)
 
-`python3 -m http.server`
+## User Experience (UX)
 
-A blue button should appear to click: *Make Public*,
+---
 
-Another blue button should appear to click: *Open Browser*.
+- User Stories
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+  - First Time Visitor Goals
 
-A blue button should appear to click: *Make Public*,
+    - As a first time visitor, I want to be able to see all animals up for adoption.
+    - As a first time visitor, I want to know about the sanctuary.
+    - As a first time visitor, I want to be know how I can get in contact with the site owner.
 
-Another blue button should appear to click: *Open Browser*.
+  - Returning Visitor Goals
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the backend lessons.
+    - As a returning visitor, I want to know where the rescue is located. \* As a returning visitor, I want to know of any upcoming events.
+    - As a returning visitor, I want to find any social media accounts for Jif’s
 
-## Updates Since The Instructional Video
+  - Frequent Visitor goals
 
-We continually tweak and adjust this template to help give you the best experience. Here are the updates since the original video was made:
+    - As a frequent visitor, I want to see any new animals available for adoption
+    - As a frequent visitor, I want to know who volunteers for Jif’s Rescue.
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+- Design
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+  - Colour Scheme
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+    - The colour scheme of this project is green, white and black. This aligns with the environmental purpose of the site, as well as being clear and attention grabbing. An off white has been used for the background to make empty space easier on the eye.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+  - Typography
 
---------
+    - There have been three fonts used in this project: ASAP, Lobster and Oswald.
+      - Lobster was used for section headings
+      - ASAP was used for all generic headings
+      - Oswald was used for all content text
 
-Happy coding!
+  - Imagery
+
+    - Images are a large part of this website, being used for both animals and volunteers.
+    - For the animals, it is important for the user to see a picture, as they are being advertised for adoption.
+    - The images of volunteers are aimed at making the user feel
+    - A hero image has been used on the index page to give a clear indication of what the site is about, as well as grabbing the attention of the user.
+
+  - Wireframes
+    - Desktop
+    - Mobile
+
+## Features
+
+---
+
+- Responsive across all devices
+  - The responsive design reshapes, resizes and hides elements depending on the size and orientation of device being used
+- Interactive elements
+  - All image cards on the Animals and Volunteers pages enlarge on hover. This provides a slight emphasis to the specific image and accompanying information being targeted. This effect only appears on screens larger than 1224 pixels, as it was found to be ineffective on mobile devices.
+  - A modal appears on the contact page if any required information is missing, or incorrect. This helps the user to see exactly what needs to be corrected.
+  - The navigation bar is collapsible on small devices, the menu being replaced by a collapsible one, ensuring a clear navigation menu exists, but does not compromise the design.
+
+## Technologies Used
+
+---
+
+- Languages Used
+  - [HTML 5](https://en.wikipedia.org/wiki/HTML5)
+  - [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+- Frameworks, Libraries and Programs Used
+  - [Bootstrap 4.5.2](https://getbootstrap.com/):
+    - Bootstrap was used to assist with the responsiveness and styling of the website.
+  - [Hover.css](https://ianlunn.github.io/Hover/):
+    - Hover.css was used on the animal and volunteer cards, to add emphasis.
+  - [Google Fonts](https://fonts.google.com/):
+    - Google fonts were used to import the 'ASAP', ‘Lobster’ and ‘Oswald’ fonts into the style.css file which are used throughout this project.
+  - [Font Awesome](https://fontawesome.com/):
+    - Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
+  - [jQuery](https://jquery.com/):
+    - jQuery came with Bootstrap to make the navbar responsive and aid other bootstrap functions.
+  - [Git](https://git-scm.com/):
+    - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
+  - [GitHub](https://github.com/):
+    - GitHub is used to store the projects code after being pushed from Git.
+  - [Balsamiq](https://balsamiq.com/):
+    - Balsamiq was used to create the wireframes during the design process.
+
+## Testing
+
+---
+
+- First Time Visitor Goals
+  - As a first time visitor, I want to be able to see all animals up for adoption.
+    - A page is dedicated to display all animals, with a name and brief description.
+    - Each animal has an “adopt me” button, which takes the user to the contact form.
+  - As a first time visitor, I want to know about the sanctuary.
+    - On entering the site, a hero image is displayed, with the sanctuary’s mission statement over the top.
+    - An about page was created to give more in depth information about the sanctuary. This includes the Mission Statement, an “About Us”, and a “What We Do”.
+  - As a first time visitor, I want to be know how I can get in contact with the site owner.
+    - A contact form has been included, allowing users to email the sanctuary through the site.
+    - Included in the footer is both a link to the contact form, as well as a phone number.
+  * Returning Visitor Goals
+    - As a returning visitor, I want to know where the rescue is located.
+      - Within the footer is a link to google maps.
+    - As a returning visitor, I want to know of any upcoming events.
+      - On the home page is a list of upcoming events, with both a date and a brief description.
+    - As a returning visitor, I want to find any social media accounts for Jif’s Rescue. \* Within the footer are links to various social media pages.
+  * Frequent Visitor goals
+    - As a frequent visitor, I want to see any new animals available for adoption
+      - On the home page is a carousel, with the three most recently rescued animals.
+    - As a frequent visitor, I want to know who volunteers for Jif’s Rescue.
+      - A page dedicated to volunteers, similar to that of animals has been created.
+      - Each volunteer has a brief description, their name as well as a picture.
+
+### Further Testing
+
+- The website was tested across multiple browsers, including Google Chrome, Firefox, Opera and Safari.
+- The website was trailed on a range of devices of different sizes, including monitors, laptops, tablets and phones.
+- The content has been run through spell checks.
+- All links were checked to ensure they are active.
+- Issues arose around sizing the Recent Rescues carousel on large devices. Fixed by using padding, instead of resizing content.
+
+### Known Issues
+
+- On some mobile devices, in landscape mode, the Useful Links in the footer become out of line.
+- On some thin mobile devices, the collapsed navbar menu button is pushed below the logo.
+
+### Validation
+
+- The [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) and [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) were used to validate each page of the site.
+- Each page had various errors that needed to be fixed. The details of each test can be found below:
+  - Home Page - [Test](./assets/images/validation/index.htmltest1) [Validated](./assets/images/validation/index.htmltest2)
+  - About Us - [Test](./assets/images/validation/about.htmltest1) [Validated](./assets/images/validation/about.htmltest2)
+  - Volunteers - [Test](./assets/images/validation/volunteer.htmltest1) [Validated](./assets/images/validation/volunteer.htmltest2)
+  - Animals - [Test](./assets/images/validation/animals.htmltest1) [Validated](./assets/images/validation/animals.htmltest1)
+  - Contact Us - [Test](./assets/images/validation/contact.htmltest1) [Validated](./assets/images/validation/contact.htmltest2)
+  - Style Sheet - [Test](./assets/images/validation/style.csstest1) [Validated](./assets/images/validation/style.csstest2)
+
+### Formatting
+
+- To format the code, each page was run through an online formatter, https://www.freeformatter.com/.
+
+## Deployment
+
+---
+
+### GitHub Pages
+The project was deployed to GitHub Pages using the following steps...
+
+1. Log in to GitHub and locate the GitHub Repository
+2. At the top of the Repository (not top of page), locate the "Settings" Button on the menu.
+   - Alternatively Click Here for a GIF demonstrating the process starting from Step 2.
+3. Scroll down the Settings page until you locate the "GitHub Pages" Section.
+4. Under "Source", click the dropdown called "None" and select "Master Branch".
+5. The page will automatically refresh.
+6. Scroll back down through the page to locate the now published site link in the "GitHub Pages" section.
+   Forking the GitHub Repository
+   By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps...
+7. Log in to GitHub and locate the GitHub Repository
+8. At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
+9. You should now have a copy of the original repository in your GitHub account.
+   Making a Local Clone
+10. Log in to GitHub and locate the GitHub Repository
+11. Under the repository name, click "Clone or download".
+12. To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
+13. Open Git Bash
+14. Change the current working directory to the location where you want the cloned directory to be made.
+15. Type git clone, and then paste the URL you copied in Step 3.
+    \$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+16. Press Enter. Your local clone will be created.
+    \$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+    > Cloning into `CI-Clone`...
+    > remote: Counting objects: 10, done.
+    > remote: Compressing objects: 100% (8/8), done.
+    > remove: Total 10 (delta 1), reused 10 (delta 1)
+    > Unpacking objects: 100% (10/10), done.
+    > Click Here to retrieve pictures for some of the buttons and more detailed explanations of the above process.
+
+## Credits
+
+---
+
+### Code
+  - The code for the vertical line next to the events list was adapted from here: https://dev.to/peterc/how-to-create-joined-bulletpoint-lists-with-css-bbc-news-style-1eem
+  - The contact form was adapted from here: https://mdbootstrap.com/docs/jquery/sections/contact/
+  - https://getbootstrap.com/docs/4.5/getting-started/introduction/ Bootstrap 4.5 was used throughout the project to help with responsiveness, the grid system and other elements such as the navbar.
+### Content
+  - All content was written by the developer, and is fictitious.
+### Media
+  - All images were sourced royalty free from https://pixabay.com/
+  - The Jif’s Rescue logo was created by my mother, Sarah Lithgow.
+### Acknowledgments
+  - Thanks to my Code Institute tutor, who provided support throughout the duration of this project.
+  - Thanks to my Code Institute mentor, who provided ideas and feedback at pivotal stages of this project.
+  - Thanks to my parents, friends and colleagues who providing constructive criticisms and pointing out spelling issues.
+  - I used https://www.reddit.com/r/learnprogramming/ for issues with images displaying.
+  - I used the Code Institute source material and various blog posts for issues with both code and bootsrap.
