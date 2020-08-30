@@ -53,8 +53,8 @@ It is designed to be attention grabbing and encourage the user to return. To hel
     - A hero image has been used on the index page to give a clear indication of what the site is about, as well as grabbing the attention of the user.
 
   - Wireframes
-    - Desktop
-    - Mobile
+    - [Desktop](./assets/images/wireframes/desktop)
+    - [Mobile](./assets/images/wireframes/mobile)
 
 ## Features
 
