@@ -20,7 +20,10 @@ It is designed to be attention grabbing and encourage the user to return. To hel
 
   - Returning Visitor Goals
 
-    - As a returning visitor, I want to know where the rescue is located. \* As a returning visitor, I want to know of any upcoming events.
+    - As a returning visitor, I want to know where the rescue is located.
+
+    * As a returning visitor, I want to know of any upcoming events.
+
     - As a returning visitor, I want to find any social media accounts for Jif’s
 
   - Frequent Visitor goals
@@ -88,26 +91,29 @@ It is designed to be attention grabbing and encourage the user to return. To hel
 
 - First Time Visitor Goals
   - As a first time visitor, I want to be able to see all animals up for adoption.
-    - A page is dedicated to display all animals, with a name and brief description.
-    - Each animal has an “adopt me” button, which takes the user to the contact form.
+    - A page is dedicated to display all animals, with a name and brief description. [Screenshot](documentation/readme/testing/animalcards.PNG)
+    - Each animal has an “adopt me” button, which takes the user to the contact form. [Screenshot](documentation/readme/testing/adoptionbutton.PNG)
   - As a first time visitor, I want to know about the sanctuary.
-    - On entering the site, a hero image is displayed, with the sanctuary’s mission statement over the top.
-    - An about page was created to give more in depth information about the sanctuary. This includes the Mission Statement, an “About Us”, and a “What We Do”.
+    - On entering the site, a hero image is displayed, with the sanctuary’s mission statement over the top. [Screenshot](documentation/readme/testing/heroimage.PNG)
+    - An about page was created to give more in depth information about the sanctuary. This includes the Mission Statement, an “About Us”, and a “What We Do”. [Screenshot](documentation/readme/testing/aboutpage.PNG)
   - As a first time visitor, I want to be know how I can get in contact with the site owner.
-    - A contact form has been included, allowing users to email the sanctuary through the site.
-    - Included in the footer is both a link to the contact form, as well as a phone number.
-  * Returning Visitor Goals
-    - As a returning visitor, I want to know where the rescue is located.
-      - Within the footer is a link to google maps.
-    - As a returning visitor, I want to know of any upcoming events.
-      - On the home page is a list of upcoming events, with both a date and a brief description.
-    - As a returning visitor, I want to find any social media accounts for Jif’s Rescue. \* Within the footer are links to various social media pages.
-  * Frequent Visitor goals
-    - As a frequent visitor, I want to see any new animals available for adoption
-      - On the home page is a carousel, with the three most recently rescued animals.
-    - As a frequent visitor, I want to know who volunteers for Jif’s Rescue.
-      - A page dedicated to volunteers, similar to that of animals has been created.
-      - Each volunteer has a brief description, their name as well as a picture.
+    - A contact form has been included, allowing users to email the sanctuary through the site. [Screenshot](documentation/readme/testing/contactform.PNG)
+    - Included in the footer is both a link to the contact form, as well as a phone number. [Screenshot](documentation/readme/testing/contactusfooter.PNG)
+
+* Returning Visitor Goals
+  - As a returning visitor, I want to know where the rescue is located.
+    - Within the footer is a link to google maps. [Screenshot](documentation/readme/testing/googlemapslink.PNG)
+  - As a returning visitor, I want to know of any upcoming events.
+    - On the home page is a list of upcoming events, with both a date and a brief description. [Screenshot](documentation/readme/testing/events.PNG)
+  - As a returning visitor, I want to find any social media accounts for Jif’s Rescue.
+    - Within the footer are links to various social media pages. [Screenshot](documentation/readme/testing/sociallinks.PNG)
+
+* Frequent Visitor goals
+  - As a frequent visitor, I want to see any new animals available for adoption
+    - On the home page is a carousel, with the three most recently rescued animals. [Screenshot](documentation/readme/testing/recentrescues.PNG)
+  - As a frequent visitor, I want to know who volunteers for Jif’s Rescue.
+    - A page dedicated to volunteers, similar to that of animals has been created. [Screenshot](documentation/readme/testing/volunteers.PNG)
+    - Each volunteer has a brief description, their name as well as a picture. [Screenshot](documentation/readme/testing/volunteercard.PNG)
 
 ### Further Testing
 
@@ -140,6 +146,7 @@ It is designed to be attention grabbing and encourage the user to return. To hel
 ## Deployment
 
 ### GitHub Pages
+
 The project was deployed to GitHub Pages using the following steps...
 
 1. Log in to GitHub and locate the GitHub Repository
@@ -152,7 +159,8 @@ The project was deployed to GitHub Pages using the following steps...
 
 ### Forking the GitHub Repository
 
-   By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps...
+By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps...
+
 1. Log in to GitHub and locate the GitHub Repository
 2. At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
 3. You should now have a copy of the original repository in your GitHub account.
@@ -174,28 +182,36 @@ $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
 
 ```
 $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
-> Cloning into `CI-Clone`...
+> Cloning into `jifsrescue-clone`...
 > remote: Counting objects: 10, done.
 > remote: Compressing objects: 100% (8/8), done.
 > remove: Total 10 (delta 1), reused 10 (delta 1)
 > Unpacking objects: 100% (10/10), done.
 ```
+
 Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository#cloning-a-repository-to-github-desktop) to retrieve pictures for some of the buttons and more detailed explanations of the above process.
 
 ## Credits
 
 ### Code
-  - The code for the vertical line next to the events list was adapted from here: https://dev.to/peterc/how-to-create-joined-bulletpoint-lists-with-css-bbc-news-style-1eem
-  - The contact form was adapted from here: https://mdbootstrap.com/docs/jquery/sections/contact/
-  - https://getbootstrap.com/docs/4.5/getting-started/introduction/ Bootstrap 4.5 was used throughout the project to help with responsiveness, the grid system and other elements such as the navbar.
+
+- The code for the vertical line next to the events list was adapted from here: https://dev.to/peterc/how-to-create-joined-bulletpoint-lists-with-css-bbc-news-style-1eem
+- The contact form was adapted from here: https://mdbootstrap.com/docs/jquery/sections/contact/
+- https://getbootstrap.com/docs/4.5/getting-started/introduction/ Bootstrap 4.5 was used throughout the project to help with responsiveness, the grid system and other elements such as the navbar.
+
 ### Content
-  - All content was written by the developer, and is fictitious.
+
+- All content was written by the developer, and is fictitious.
+
 ### Media
-  - All images were sourced royalty free from https://pixabay.com/
-  - The Jif’s Rescue logo was created by my mother, Sarah Lithgow.
+
+- All images were sourced royalty free from https://pixabay.com/
+- The Jif’s Rescue logo was created by my mother, Sarah Lithgow.
+
 ### Acknowledgments
-  - Thanks to my Code Institute tutor, who provided support throughout the duration of this project.
-  - Thanks to my Code Institute mentor, who provided ideas and feedback at pivotal stages of this project.
-  - Thanks to my parents, friends and colleagues who providing constructive criticisms and pointing out spelling issues.
-  - I used https://www.reddit.com/r/learnprogramming/ for issues with images displaying.
-  - I used the Code Institute source material and various blog posts for issues with both code and bootsrap.
+
+- Thanks to my Code Institute tutor, who provided support throughout the duration of this project.
+- Thanks to my Code Institute mentor, who provided ideas and feedback at pivotal stages of this project.
+- Thanks to my parents, friends and colleagues who providing constructive criticisms and pointing out spelling issues.
+- I used https://www.reddit.com/r/learnprogramming/ for issues with images displaying.
+- I used the Code Institute source material and various blog posts for issues with both code and bootsrap.
