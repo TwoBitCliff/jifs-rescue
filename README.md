@@ -126,12 +126,12 @@ It is designed to be attention grabbing and encourage the user to return. To hel
 
 - The [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) and [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) were used to validate each page of the site.
 - Each page had various errors that needed to be fixed. The details of each test can be found below:
-  - Home Page - [Test](assets/images/validation/index.htmltest1) [Validated](assets/images/validation/index.htmltest2)
-  - About Us - [Test](assets/images/validation/about.htmltest1) [Validated](assets/images/validation/about.htmltest2)
-  - Volunteers - [Test](assets/images/validation/volunteer.htmltest1) [Validated](assets/images/validation/volunteer.htmltest2)
-  - Animals - [Test](assets/images/validation/animals.htmltest1) [Validated](assets/images/validation/animals.htmltest1)
-  - Contact Us - [Test](assets/images/validation/contact.htmltest1) [Validated](assets/images/validation/contact.htmltest2)
-  - Style Sheet - [Test](assets/images/validation/style.csstest1) [Validated](assets/images/validation/style.csstest2)
+  - Home Page - [Test](https://github.com/TwoBitCliff/jifsrescue/blob/master/assets/images/validation/index.htmltest1.PNG) [Validated](https://github.com/TwoBitCliff/jifsrescue/blob/master/assets/images/validation/index.htmltest2.PNG)
+  - About Us - [Test](https://github.com/TwoBitCliff/jifsrescue/blob/master/assets/images/validation/about.htmltest1.PNG) [Validated](https://github.com/TwoBitCliff/jifsrescue/blob/master/assets/images/validation/about.htmltest2.PNG)
+  - Volunteers - [Test](https://github.com/TwoBitCliff/jifsrescue/blob/master/assets/images/validation/volunteer.htmltest1.PNG) [Validated](https://github.com/TwoBitCliff/jifsrescue/blob/master/assets/images/validation/volunteer.htmltest2.PNG)
+  - Animals - [Test](https://github.com/TwoBitCliff/jifsrescue/blob/master/assets/images/validation/animals.htmltest1.PNG) [Validated](https://github.com/TwoBitCliff/jifsrescue/blob/master/assets/images/validation/animals.htmltest2.PNG)
+  - Contact Us - [Test](https://github.com/TwoBitCliff/jifsrescue/blob/master/assets/images/validation/contact.htmltest1.PNG) [Validated](https://github.com/TwoBitCliff/jifsrescue/blob/master/assets/images/validation/contact.htmltest2.PNG)
+  - Style Sheet - [Test](https://github.com/TwoBitCliff/jifsrescue/blob/master/assets/images/validation/style.csstest1.PNG) [Validated](https://github.com/TwoBitCliff/jifsrescue/blob/master/assets/images/validation/style.csstest2.PNG)
 
 ### Formatting
 
