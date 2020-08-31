@@ -1,12 +1,26 @@
-/* Fonts */
+/* Google Fonts */
 
 @import url("https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Lobster&family=Oswald:wght@200;300;400;500;600;700&display=swap");
 
-/* Navbar */
+/* Colours */
 
-.navbar {
-  background-color: #28a745;
+.brand-green-bg {
+background-color:  #28a745;
 }
+
+.brand-green {
+color:  #28a745;
+}
+
+.brand-white {
+     color: #fff;
+}
+
+body {
+  background-color: #f8f8ff
+}
+
+/* Navbar */
 
 .navbar ul li a {
   font-size: 20px;
@@ -24,10 +38,6 @@
   margin: 2px;
 }
 
-.fa-paw {
-  color: #28a745;
-}
-
 .jifs-rescue-logo {
   width: 100%;
   height: 100%;
@@ -39,20 +49,17 @@
 .general-heading {
   text-transform: uppercase;
   font-family: "Asap", sans-serif;
-  color: #fff;
-}
+  }
 
 .section-heading {
   font-family: "lobster", sans-serif;
   text-transform: uppercase;
-  text-align: center;
   margin-top: 10px;
 }
 
 /* Footer */
 
 .footer {
-  background-color: #28a745;
   padding-bottom: 20px;
 }
 
@@ -62,17 +69,14 @@
 
 .footer h6 {
   margin-top: 10px;
-  text-align: center;
-}
+  }
 
 .footer-list-contact {
-  text-align: center;
   margin: 0;
   padding: 0;
 }
 
 .footerlist-1 {
-  text-align: left;
   margin: 0;
   padding: 0;
   float: left;
@@ -80,15 +84,10 @@
 }
 
 .footerlist-2 {
-  text-align: right;
   margin: 0;
   padding: 0;
   float: right;
   padding-right: 5%;
-}
-
-.social-links {
-  text-align: center;
 }
 
 .contact-us {
@@ -96,12 +95,7 @@
   margin: 0;
 }
 
-.footer ul li a {
-  color: #fff;
-}
-
 .social-link {
-  color: #fff;
   font-size: 5vh;
   padding: 15px 10px 5px 10px;
 }
@@ -110,17 +104,17 @@
 
 .line-break {
   display: block;
-  border: 1px solid #28a745;
+  border: solid 1px;
   width: 50%;
 }
 
 .footer-break {
   display: block;
-  border: 1px solid #fff;
+  border: 1px solid;
   width: 30%;
 }
 
-/* --------Hero Image----------- */
+/* Hero Image */
 
 .hero-image {
   background-image: url(https://twobitcliff.github.io/jifsrescue/assets/images/pigs.jpg);
@@ -132,12 +126,10 @@
 }
 
 .hero-text {
-  text-align: center;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: white;
   width: 80%;
 }
 
@@ -149,7 +141,7 @@
 
 /* Events */
 
-/* https://dev.to/peterc/how-to-create-joined-bulletpoint-lists-with-css-bbc-news-style-1eem */
+/* https://dev.to/peterc/how-to-create-joined-bulletpoint-lists-with-css-bbc-news-style-1eem was used to create the soilid line before the list*/
 
 dl:before {
   background-color: #28a745;
@@ -171,7 +163,6 @@ dl {
 
 dt, dd {
     padding-top: 10px;
-    
 }
 
 /* Contact */
@@ -184,36 +175,20 @@ dt, dd {
   margin-bottom: 10vh;
 }
 
-.contact-header {
-  background-color: #28a745;
-  color: #fff;
-  text-align: center;
-}
-
 .contact-form-btn {
-  background-color: #28a745;
   border: none;
-  color: white;
-  text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
 }
 
-/* about */
+/* About */
 
 .about-section {
   justify-content: center;
-  text-align: center;
   margin-top: 10vh;
   margin-bottom: 15vh;
   width: 70%;
-}
-
-.carousel-inner,
-.carousel-item,
-.carousel-item-img {
-  max-height: 50vh;
 }
 
 .events-rescues {
@@ -221,27 +196,13 @@ dt, dd {
   margin-bottom: 20px;
 }
 
-/* animals */
-
-.alert {
-  text-align: center;
-  font-family: "Asap", sans-serif;
-}
-
-.content-text,
-.animal-text {
-  font-family: "Oswald", sans-serif;
-}
+/* Animals */
 
 .animal-name {
-  text-align: center;
-  font-family: "Asap", sans-serif;
   font-weight: 600;
 }
 
 .animal-text {
-  text-align: center;
-  font-family: "Oswald", sans-serif;
   padding-bottom: 10px;
   margin-bottom: 40px;
 }
@@ -251,10 +212,7 @@ dt, dd {
 }
 
 .adoption-btn {
-  background-color: #28a745;
   font-family: "Asap", sans-serif;
-  text-align: center;
-  color: #fff;
   padding-top: 5px;
   padding-bottom: 5px;
   position: absolute;
@@ -291,7 +249,6 @@ dt, dd {
 
 .volunteer-image {
   height: 300px;
-  text-align: center;
   display: block;
   min-height: 100%;
   margin-bottom: 3vh;
@@ -309,7 +266,6 @@ dt, dd {
   position: relative;
   display: flex;
   margin: 0px auto 0px;
-  text-align: center;
 }
 
 .volunteer-container {
@@ -322,21 +278,26 @@ dt, dd {
 .volunteer-card li {
   list-style-type: none;
   justify-content: center;
-  text-align: left;
   padding-left: 42px;
 }
 
 /* Miscellaneous */
 
 .card {
-  border: solid #28a745 1px;
+  border: solid 1px #28a745;
 }
 
-body {
-  background-color: #f8f8ff
+.carousel-inner,
+.carousel-item,
+.carousel-item-img {
+  max-height: 50vh;
 }
 
-/* transitions and animations */
+.content-text {
+  font-family: "Oswald", sans-serif;
+}
+
+/* Media Queries */
 
 @media only screen and (min-width: 1224px) {
   .events-list {
@@ -379,9 +340,3 @@ body {
     margin-right: 10%;
   }
 }
-
-
-
-
-
-
