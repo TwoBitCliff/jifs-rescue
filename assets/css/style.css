@@ -1,3 +1,5 @@
+/* Fonts */
+
 @import url("https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Lobster&family=Oswald:wght@200;300;400;500;600;700&display=swap");
 
 /* Navbar */
@@ -26,6 +28,11 @@
   color: #28a745;
 }
 
+.jifs-rescue-logo {
+  width: 100%;
+  height: 100%;
+  border-radius: 15%;
+}
 
 /* Headings */
 
@@ -42,12 +49,6 @@
   margin-top: 10px;
 }
 
-.footer h6 {
-  margin-top: 10px;
-  text-align: center;
-}
-
-
 /* Footer */
 
 .footer {
@@ -57,6 +58,11 @@
 
 .footer-heading {
   padding-top: 10px;
+}
+
+.footer h6 {
+  margin-top: 10px;
+  text-align: center;
 }
 
 .footer-list-contact {
@@ -100,6 +106,19 @@
   padding: 15px 10px 5px 10px;
 }
 
+/* Line Breaks */
+
+.line-break {
+  display: block;
+  border: 1px solid #28a745;
+  width: 50%;
+}
+
+.footer-break {
+  display: block;
+  border: 1px solid #fff;
+  width: 30%;
+}
 
 /* --------Hero Image----------- */
 
@@ -122,15 +141,13 @@
   width: 80%;
 }
 
-.line-break {
-  display: block;
-  border: 1px solid #28a745;
-  width: 50%;
+.hero-text p {
+  font-size: 18px;
+  font-weight: 500;
 }
 
 
 /* Events */
-
 
 /* https://dev.to/peterc/how-to-create-joined-bulletpoint-lists-with-css-bbc-news-style-1eem */
 
@@ -157,31 +174,15 @@ dt, dd {
     
 }
 
-.volunteer-image img {
-  max-height: 100%;
-  max-width: 100%;
-}
+/* Contact */
 
-.volunteer-image {
-  height: 300px;
-  text-align: center;
-  display: block;
-}
-
-.jifs-rescue-logo {
-  width: 100%;
-  height: 100%;
-  border-radius: 15%;
-}
+/* https://mdbootstrap.com/docs/jquery/sections/contact/ */
 
 .contact-form-card {
   justify-content: center;
   margin-top: 10vh;
   margin-bottom: 10vh;
 }
-
-
-/* https://mdbootstrap.com/docs/jquery/sections/contact/ */
 
 .contact-header {
   background-color: #28a745;
@@ -198,7 +199,6 @@ dt, dd {
   display: inline-block;
   font-size: 16px;
 }
-
 
 /* about */
 
@@ -221,12 +221,17 @@ dt, dd {
   margin-bottom: 20px;
 }
 
-.volunteer-item {
-  margin: 10px 5px 10px 5px;
+/* animals */
+
+.alert {
+  text-align: center;
+  font-family: "Asap", sans-serif;
 }
 
-
-/* animals */
+.content-text,
+.animal-text {
+  font-family: "Oswald", sans-serif;
+}
 
 .animal-name {
   text-align: center;
@@ -273,10 +278,27 @@ dt, dd {
   position: relative;
 }
 
-
 /* Volunteers */
 
-.card-img {
+.volunteer-item {
+  margin: 10px 5px 10px 5px;
+}
+
+.volunteer-image img {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.volunteer-image {
+  height: 300px;
+  text-align: center;
+  display: block;
+  min-height: 100%;
+  margin-bottom: 3vh;
+  border-radius: 20%;
+}
+
+.volunteer-card-img {
   object-fit: cover;
   position: relative;
   height: 100%;
@@ -304,6 +326,8 @@ dt, dd {
   padding-left: 42px;
 }
 
+/* Miscellaneous */
+
 .card {
   border: solid #28a745 1px;
 }
@@ -312,7 +336,6 @@ body {
   background-color: #f8f8ff
 }
 
-
 /* transitions and animations */
 
 @media only screen and (min-width: 1224px) {
@@ -320,29 +343,36 @@ body {
     max-width: 80%;
     padding-left: 5%;
   }
+
   .rescues-slide {
     padding-left: 10%;
   }
+
   .animal-card:hover,
   .volunteer-card:hover {
     transform: scale(1.05);
     transition-duration: .5s;
     touch-action: none;
   }
+
   .animal-container {
     padding-left: 15%;
     padding-right: 15%;
   }
+
   .contact-form-card {
     width: 60%;
   }
+
   .useful-links {
     padding-left: 20%;
     padding-right: 20%;
   }
+
   .about-section {
     width: 60%;
   }
+
   #carouselRecentRescues {
     max-width: 80%;
     margin-left: 10%;
@@ -350,29 +380,8 @@ body {
   }
 }
 
-.volunteer-image {
-  min-height: 100%;
-  margin-bottom: 3vh;
-  border-radius: 20%;
-}
 
-.alert {
-  text-align: center;
-  font-family: "Asap", sans-serif;
-}
 
-.content-text,
-.animal-text {
-  font-family: "Oswald", sans-serif;
-}
 
-.hero-text p {
-  font-size: 18px;
-  font-weight: 500;
-}
 
-.footer-break {
-  display: block;
-  border: 1px solid #fff;
-  width: 30%;
-}
+
