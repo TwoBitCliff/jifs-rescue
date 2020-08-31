@@ -1,7 +1,5 @@
 # Jif's Rescue
 
----
-
 [View the live project here](https://twobitcliff.github.io/jifsrescue/)
 
 This is the main website for Jif’s Rescue, a fictional animal rescue sanctuary aimed at rehoming animals, fundraising and spreading awareness.
@@ -11,8 +9,6 @@ It is designed to be attention grabbing and encourage the user to return. To hel
 ![Image of Home Page](./assets/images/readme/homepage.PNG)
 
 ## User Experience (UX)
-
----
 
 - User Stories
 
@@ -58,8 +54,6 @@ It is designed to be attention grabbing and encourage the user to return. To hel
 
 ## Features
 
----
-
 - Responsive across all devices
   - The responsive design reshapes, resizes and hides elements depending on the size and orientation of device being used
 - Interactive elements
@@ -68,8 +62,6 @@ It is designed to be attention grabbing and encourage the user to return. To hel
   - The navigation bar is collapsible on small devices, the menu being replaced by a collapsible one, ensuring a clear navigation menu exists, but does not compromise the design.
 
 ## Technologies Used
-
----
 
 - Languages Used
   - [HTML 5](https://en.wikipedia.org/wiki/HTML5)
@@ -93,8 +85,6 @@ It is designed to be attention grabbing and encourage the user to return. To hel
     - Balsamiq was used to create the wireframes during the design process.
 
 ## Testing
-
----
 
 - First Time Visitor Goals
   - As a first time visitor, I want to be able to see all animals up for adoption.
@@ -136,20 +126,18 @@ It is designed to be attention grabbing and encourage the user to return. To hel
 
 - The [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) and [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) were used to validate each page of the site.
 - Each page had various errors that needed to be fixed. The details of each test can be found below:
-  - Home Page - [Test](./assets/images/validation/index.htmltest1) [Validated](./assets/images/validation/index.htmltest2)
-  - About Us - [Test](./assets/images/validation/about.htmltest1) [Validated](./assets/images/validation/about.htmltest2)
-  - Volunteers - [Test](./assets/images/validation/volunteer.htmltest1) [Validated](./assets/images/validation/volunteer.htmltest2)
-  - Animals - [Test](./assets/images/validation/animals.htmltest1) [Validated](./assets/images/validation/animals.htmltest1)
-  - Contact Us - [Test](./assets/images/validation/contact.htmltest1) [Validated](./assets/images/validation/contact.htmltest2)
-  - Style Sheet - [Test](./assets/images/validation/style.csstest1) [Validated](./assets/images/validation/style.csstest2)
+  - Home Page - [Test](assets/images/validation/index.htmltest1) [Validated](assets/images/validation/index.htmltest2)
+  - About Us - [Test](assets/images/validation/about.htmltest1) [Validated](assets/images/validation/about.htmltest2)
+  - Volunteers - [Test](assets/images/validation/volunteer.htmltest1) [Validated](assets/images/validation/volunteer.htmltest2)
+  - Animals - [Test](assets/images/validation/animals.htmltest1) [Validated](assets/images/validation/animals.htmltest1)
+  - Contact Us - [Test](assets/images/validation/contact.htmltest1) [Validated](assets/images/validation/contact.htmltest2)
+  - Style Sheet - [Test](assets/images/validation/style.csstest1) [Validated](assets/images/validation/style.csstest2)
 
 ### Formatting
 
 - To format the code, each page was run through an online formatter, https://www.freeformatter.com/.
 
 ## Deployment
-
----
 
 ### GitHub Pages
 The project was deployed to GitHub Pages using the following steps...
@@ -184,8 +172,6 @@ The project was deployed to GitHub Pages using the following steps...
     > Click Here to retrieve pictures for some of the buttons and more detailed explanations of the above process.
 
 ## Credits
-
----
 
 ### Code
   - The code for the vertical line next to the events list was adapted from here: https://dev.to/peterc/how-to-create-joined-bulletpoint-lists-with-css-bbc-news-style-1eem
