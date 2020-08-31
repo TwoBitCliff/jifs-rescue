@@ -127,6 +127,7 @@ It is designed to be attention grabbing and encourage the user to return. To hel
 
 - On some mobile devices, in landscape mode, the Useful Links in the footer become out of line.
 - On some thin mobile devices, the collapsed navbar menu button is pushed below the logo.
+* On Ipad Pro, there is a white gap below the footer.
 
 ### Validation
 
